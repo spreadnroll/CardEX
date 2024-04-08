@@ -1,0 +1,59 @@
+.listitems {
+  color: brown;
+  border: 2px solid green;
+  border-radius: 25px;
+  background-color: chartreuse;
+}
+
+body {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: blue;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+a:hover {
+  color: brown;
+  border: 2px solid green;
+  border-radius: 0px;
+  background-color: chartreuse;
+  
+}
+
+
+p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: chartreuse;
+  border: 2px solid green;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-color: aqua;
+  background-color: white;
+
+}
+
+article {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
